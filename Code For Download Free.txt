@@ -3,7 +3,7 @@
 title Windows Host Warning
 color 0C
 
-:: Fullscreen (Alt+Enter pada banyak versi CMD)
+:: Fullscreen
 mode con: cols=120 lines=40
 
 echo.
