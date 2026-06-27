@@ -1,0 +1,53 @@
+```bat
+@echo off
+title Windows Host Warning
+color 0C
+
+:: Fullscreen (Alt+Enter pada banyak versi CMD)
+mode con: cols=120 lines=40
+
+echo.
+echo Initializing...
+timeout /t 1 >nul
+
+for /l %%i in (1,1,30) do (
+    cls
+    echo ===============================================
+    echo          WINDOWS HOST WARNING
+    echo ===============================================
+    echo.
+    echo Scanning Data... [%random%%random%]
+    echo Reading System Files... [%random%%random%]
+    echo Checking Driver Status... [%random%%random%]
+    echo Verifying Boot Configuration... [%random%%random%]
+    echo.
+    timeout /t 1 >nul
+)
+
+cls
+echo.
+echo The System Cannot Find Driver Your Windows Because The Software Has Shutdown
+echo Name Driver: Local Disk C:
+echo The Driver Cannot Be Installed
+echo.
+
+for %%i in (10 20 30 40 50 60 70 80 90 100) do (
+    cls
+    echo.
+    echo The System Cannot Find Driver Your Windows Because The Software Has Shutdown
+    echo.
+    echo Scanning Data... [%random%%random%]
+    echo.
+    echo %%i%% Completed
+    timeout /t 1 >nul
+)
+
+cls
+echo.
+echo Scan Complete.
+shutdown /r /t 20
+pause >nul
+```
+
+
+Delete Read: Rename All Name If You Wanna Rename
